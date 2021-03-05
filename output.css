@@ -87,9 +87,12 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 /*index body styling*/
 .index-body {
-  max-width: 1440px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -98,22 +101,32 @@ body {
 .kim-title {
   order: -1;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }
 
 .kim-title h3 {
   margin: 0;
+  text-align: right;
+  position: absolute;
+  right: 11vw;
+  top: 26vw;
+  font-weight: normal;
+  font-size: 5.5vw;
+  color: #AB6254;
 }
 
 .name {
   display: flex;
   margin: 0;
-  height: 15vh;
   justify-content: center;
   justify-items: center;
 }
 
 .name h1 {
-  display: inline-flex;
+  display: flex;
 }
 
 .kim {
@@ -133,9 +146,24 @@ body {
   font-family: "Londrina Outline";
   font-weight: 400;
   font-size: 22vw;
+  letter-spacing: 0.02em;
   margin-top: 2.7vw;
   position: relative;
   right: 8.1vw;
+}
+
+@media (min-width: 1920px) {
+  .kim {
+    font-size: 345.6px;
+  }
+
+  .mckenna {
+    font-size: 422.4px;
+  }
+
+  .kim-title h3 {
+    font-size: 5.5vw;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
