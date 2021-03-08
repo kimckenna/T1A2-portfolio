@@ -80,7 +80,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 body {
-  background-color: #e9eaef;
+  background-color: #eceaed;
   font-family: Lekton;
   font-weight: 400;
   margin: 5px 0;
@@ -106,7 +106,7 @@ ul {
 main.kim-title {
   order: -1;
   margin: 0;
-  padding: 4% 0;
+  padding: 1% 0;
   display: flex;
   flex-direction: column;
 }
@@ -114,15 +114,11 @@ main.kim-title {
 .kim-title h3 {
   margin: auto;
   position: relative;
-  top: 2%;
+  left: 15%;
   font-weight: 400;
   font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
-  color: #e9eaef;
-  left: 20%;
-  text-shadow: 1px 0px 0px rgba(128, 0, 0, 0.09), 0px 1px 1px rgba(177, 177, 181, 0.79), -0.5px -0.5px 1px #f9f9ff;
-  /*text-shadow: 1px 0px 0px rgba(128, 0, 0, 0.09),0px 1px 2px rgba(177, 177, 181, 0.6),-1px -1px 1px rgba(249, 249, 255, 1);*/
-  /*text-shadow: 1px 1px 0px rgba(128, 0, 0, 0.09),-1px 1px 2px rgba(177, 177, 181, 0.6),1px -2px 3px rgba(249, 249, 255, 0.89);*/
-  /*text-shadow: -1px 2px 8px rgba(128, 0, 0, 0.21),-1px 1px 1px rgba(177, 177, 181, 0.29);*/
+  color: white;
+  text-shadow: 1px 0px 0px rgba(255, 194, 165, 0.14), 0px 1px 1px rgba(203, 203, 211, 0.79), -0.5px -0.5px 1px #f9f9ff;
 }
 
 .name {
@@ -133,7 +129,7 @@ main.kim-title {
 }
 
 .kim {
-  color: #FFA899;
+  color: #ff9fa0;
   font-family: "Palanquin";
   font-weight: 400;
   font-size: clamp(3.63rem, 1.772rem + 9.29vw, 12.92rem);
@@ -144,7 +140,7 @@ main.kim-title {
 }
 
 .mckenna {
-  color: #ED4C4C;
+  color: #f63309;
   font-family: "Londrina Outline";
   font-weight: 400;
   font-size: clamp(4.31rem, 2.078rem + 11.6vw, 15.47rem);
@@ -178,23 +174,19 @@ ul.nav-list {
   left: 0;
   right: 0;
   margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  box-shadow: rgba(146, 143, 155, 0.15) 0px 48px 100px 0px;
 }
 
-.about-me-polaroid {
+.about-polaroid {
   z-index: 4;
   top: 25%;
   transform: rotate(-10deg);
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(189, 192, 194, 0.3) 0px 1px 2px 0px, rgba(164, 165, 167, 0.15) 0px 2px 6px 2px;
 }
 
-.profess-details-polaroid {
+.work-polaroid {
   z-index: 3;
   top: 35%;
   transform: rotate(-5deg);
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(189, 192, 194, 0.3) 0px 1px 2px 0px, rgba(164, 165, 167, 0.15) 0px 2px 6px 2px;
 }
 
@@ -202,11 +194,10 @@ ul.nav-list {
   z-index: 2;
   top: 45%;
   transform: rotate(10deg);
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(189, 192, 194, 0.3) 0px 1px 2px 0px, rgba(164, 165, 167, 0.15) 0px 2px 6px 2px;
 }
 
-.contact-polaroid {
+.connect-polaroid {
   z-index: 1;
   top: 55%;
   transform: rotate(2deg);
@@ -214,14 +205,13 @@ ul.nav-list {
 }
 
 .polaroid-inside {
-  background-color: #F5E4E4;
+  background-color: #fce7e6;
   width: 85.57%;
   height: 71.14%;
   margin: 0% auto;
   position: relative;
   top: 8.64%;
-  box-shadow: rgba(36, 36, 36, 0.068) 0px 3px 5px;
-  box-shadow: rgba(201, 201, 206, 0.25) 0px 30px 60px -12px inset, rgba(248, 116, 116, 0.253) 0px 18px 36px -18px inset;
+  box-shadow: rgba(155, 153, 153, 0.068) 0px 3px 5px, rgba(201, 201, 206, 0.25) 0px 30px 60px -12px inset, rgba(248, 116, 116, 0.253) 0px 18px 36px -18px inset;
 }
 
 .nav-name {
@@ -231,8 +221,27 @@ ul.nav-list {
   font-size: clamp(1.125rem, 0.8364rem + 1.443vw, 2.568rem);
 }
 
-a:visited {
-  color: #AB6254;
+a, a:visited, a:active {
+  color: #a48580;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+footer .social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .social-icons a {
+  width: 8%;
+  padding: 0 0.5%;
+}
+footer .social-icons img {
+  max-width: 100%;
 }
 
 @media (min-width: 700px) {
