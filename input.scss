@@ -104,7 +104,7 @@ ul{
 main.kim-title{
     order: -1;
     margin: 0;
-    padding: 6% 0;
+    padding: 4% 0;
     display: flex;
     flex-direction: column;
 }
@@ -114,9 +114,13 @@ main.kim-title{
     top: 2%;
     font-weight: 400;
     font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
-    color: #AB6254;
-    left: 16%;
-}
+    color: #e9eaef;
+    left: 20%;
+    text-shadow: 1px 0px 0px rgba(128, 0, 0, 0.09),0px 1px 1px rgba(177, 177, 181, 0.79),-0.5px -0.5px 1px rgba(249, 249, 255, 1);
+    /*text-shadow: 1px 0px 0px rgba(128, 0, 0, 0.09),0px 1px 2px rgba(177, 177, 181, 0.6),-1px -1px 1px rgba(249, 249, 255, 1);*/
+    /*text-shadow: 1px 1px 0px rgba(128, 0, 0, 0.09),-1px 1px 2px rgba(177, 177, 181, 0.6),1px -2px 3px rgba(249, 249, 255, 0.89);*/
+    /*text-shadow: -1px 2px 8px rgba(128, 0, 0, 0.21),-1px 1px 1px rgba(177, 177, 181, 0.29);*/
+} 
 .name{ 
     display: flex;
     margin: 0;
