@@ -1,0 +1,40 @@
+@import "index-nav.scss";
+@import "fonts.scss";
+@import "index-main.scss";
+
+body{
+    background-color: #eceaed;
+    font-family: Lekton;
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 0;
+} 
+h1{
+    margin: 0;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom:  0;
+    z-index: 4;
+    .social-icons{
+        width: 100%;          
+        display: flex;
+        justify-content: flex-end;
+        a{
+            width: 8%;
+            padding: 0 2%;
+            margin: 0 1% 0 0;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+

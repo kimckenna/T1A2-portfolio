@@ -1,0 +1,49 @@
+.index-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*kim title - kimckenna & .dev-student */
+main.kim-title{
+    order: -1;
+    margin: 0;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: column;
+}
+/* .dev-student text*/
+.kim-title h3{
+    margin: auto;
+    position: relative;
+    left: 15%;
+    font-weight: 400;
+    font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
+    color: white;
+    text-shadow: 1px 0px 0px rgba(255, 194, 165, 0.14),0px 1px 1px rgba(203, 203, 211, 0.79),-0.5px -0.5px 1px rgba(249, 249, 255, 1);
+} 
+/* kim-mckenna text*/
+.name{ 
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+}
+.kim{
+    color: #ff9fa0;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: clamp(3.63rem, 1.772rem + 9.29vw, 12.92rem);
+    position: relative;
+    left: clamp(1.63rem, 0.796rem + 4.17vw, 5.8rem);
+    z-index: 1;
+    line-height: 1.51;
+}
+.mckenna{
+    color: #f63309;
+    font-family: 'Londrina Outline';
+    font-weight: 400;
+    font-size: clamp(4.31rem, 2.078rem + 11.6vw, 15.47rem);
+    letter-spacing: 0.02em;
+    position: relative;
+    right: clamp(1.63rem, 0.796rem + 4.17vw, 5.8rem);
+}
