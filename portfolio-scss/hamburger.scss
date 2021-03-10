@@ -1,0 +1,82 @@
+
+#menu-wrapper{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    .toggle{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        z-index: 999;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .polaroid-wrapper{
+        width: 100px;
+        position: absolute;
+        left: 10px;
+
+        Z-index: 998;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        box-sizing: border-box;
+        padding: 10px;
+        transition: all 0.3s ease;
+
+        .hamburger-polaroid{
+            position: relative;
+            width: 100%;
+        }
+    }
+    .toggle:hover + .polaroid-wrapper{
+        transform: rotate(-25deg);
+    }
+    .toggle:checked + .polaroid-wrapper{
+        transform: rotate(45deg);
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        opacity: 0;
+        width: 0;
+        height: 100%;
+        overflow: hidden;
+        background: rgba(25,25,25,0.85);
+        z-index: 1;
+        transition: all 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul li{
+            color: black;
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            cursor: pointer;
+            box-sizing: 100px;
+            border-bottom: 2px solid transparent;
+        }
+        ul li:hover{
+            color: white;
+        }
+    }
+    .toggle:checked + .polaroid-wrapper + .menu{
+        opacity: 1;
+        width: 100%;
+        
+    }
+}
+

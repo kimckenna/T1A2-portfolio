@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom:  0;
+    z-index: 4;
+
+    .social-icons{
+        width: 100%;          
+        display: flex;
+        justify-content: flex-end;
+
+        a{
+            width: 8%;
+            padding: 2%;
+            margin: 0 1% 0 0;
+        }
+        
+        img{
+            max-width: 100%;
+        }
+    }
+}

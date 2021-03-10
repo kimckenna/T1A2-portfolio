@@ -1,4 +1,6 @@
-/* menu toggle*/
+/* code not being used - will remove once checked over next items*/
+
+
 #menu-toggle{
     display: block;
     position: relative;
@@ -33,7 +35,7 @@
     }
     .nav-list{
         position: absolute;
-        max-width: 600px;
+        max-width: 20%;
         padding: 50px;
         /*need to play around with this for positioning*/
         margin: -100px 0 0 -50px;
@@ -51,15 +53,22 @@
         transform: none;
     }
 }
+.header{
+    flex: 0 1 auto;
+    background-color: #fce7e6;
+}
 nav.nav{
     display: flex;
     width: 100%;
 }
 .home{
     display: inline-block;
-    width: 50%;
+    max-width: 40%;
+    img{
+        width: 40%;
+    }
 }
-img{
+.hamburger-polaroid{
     width: 40%;
     padding-left: 2%;
     position: relative;

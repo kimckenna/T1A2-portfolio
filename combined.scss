@@ -1,8 +1,13 @@
-@import "index-nav.scss";
-@import "fonts.scss";
-@import "index.scss";
-@import "nav.scss";
+@import "./portfolio-scss/fonts.scss";
+@import "./portfolio-scss/index-nav.scss";
+@import "./portfolio-scss/hamburger.scss";
+@import "./portfolio-scss/index.scss";
+@import "./portfolio-scss/about.scss";
+@import "./portfolio-scss/footer.scss";
 
+html{
+    min-height: 100%;
+}
 body{
     background-color: #fff;
     font-family: Lekton;
@@ -10,9 +15,6 @@ body{
     margin: 0;
     padding: 0;
 } 
-header{
-    background-color: #fce7e6;
-}
 h1{
     margin: 0;
     color: #f63309;
@@ -39,25 +41,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-footer{
-    width: 100%;
-    position: absolute;
-    bottom:  0;
-    z-index: 4;
-    .social-icons{
-        width: 100%;          
-        display: flex;
-        justify-content: flex-end;
-        a{
-            width: 8%;
-            padding: 0 2%;
-            margin: 0 1% 0 0;
-        }
-        img{
-            max-width: 100%;
-        }
-    }
-}
+
 
 
 

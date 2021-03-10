@@ -1,0 +1,24 @@
+/* needs to be moved to global*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* may not be required - need to look at adding to main so doesn't impact header & footer*/
+.about-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.about-content{
+    width: 100%;
+    max-width: 768px;
+}
