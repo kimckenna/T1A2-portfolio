@@ -1,20 +1,21 @@
 
 /*hamburger code*/
 #menu-wrapper{
-    position: fixed;
-    top: 15px;
-    left: 85%;
-    width: 50%;
-    max-width: 10vw;
-    height: 50px;
+    position: absolute;
+    top: 1vh;
+    right: 4vw;
+    //width: 100%;
+    width: 10vw;
+    height: 10vh;
+    max-width: 200px;
+    max-height: 300px;
     box-sizing: border-box;
-    background-color: red;
     .toggle{
-        width: 80px;
+        width: 60%;
         max-width: 100px;
-        height: 100px;
+        height: 100%;
         position: absolute;
-        top: 0;
+        top: 4px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -24,29 +25,39 @@
         opacity: 0;
     }
     .polaroid-wrapper{
-        width: 100px;
+       // max-width: 75%;
+       // max-height: 90px;
         position: absolute;
         left: 0;
+        top: 0;
 
         z-index: 998;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
 
-        box-sizing: border-box;
-        padding: 10px;
-        transition: all 0.3s ease;
-
+//        box-sizing: border-box;
+//        padding: 10px;
+        
         .hamburger-polaroid{
+            transform: rotate(-15deg);
             width: 100%;
+            top: 0;
+            transition: all 0.3s ease;
+
         }
     }
     .toggle:hover + .polaroid-wrapper{
-        transform: rotate(-25deg);
+        //width: 10vh;
+        transform: rotate(15deg);
+        transition: all 0.3s ease;
+        .hamburger-polaroid{
+            width: 120%;
+        }
     }
     .toggle:checked + .polaroid-wrapper{
-        transform: rotate(45deg);
+        transform: rotate(30deg);
     }
     .menu {
         position: fixed;
@@ -79,10 +90,10 @@
                 font-size: 20px;
                 text-decoration: none;
              }
+             a:hover{
+                color: $primary-color-2;
             }
-        }
-        ul li:hover{
-            color: white;
+            }
         }
     }
     .toggle:checked + .polaroid-wrapper + .menu{
@@ -97,9 +108,21 @@
     max-width: 50%;
     img{
         width: 40%;
+        position: relative;
+        left: 15%;
+        z-index: 999;
         
     }
 }
 
+@media (max-width: 900px){
+    #menu-wrapper{
+        height: 10vh;
+        max-height: 100px;
+    }
+}
+@media (min-width: 1920px){
+    
+}
 
 
