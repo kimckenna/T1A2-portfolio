@@ -6,11 +6,13 @@
 }
 
 /*pages content */
+
+/*height variables*/
+
+
 .page-content{
     margin: 0 auto;
-    margin-top: 10vh;
     width: 100vw;
-    min-height: calc(100% - (var(--header-height) + var(--footer-height)));
     max-width: 1200px;
     justify-content: center;
     align-items: center;
