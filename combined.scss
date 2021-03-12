@@ -1,14 +1,19 @@
 @import "./portfolio-scss/variable";
 @import "./portfolio-scss/fonts.scss";
-@import "./portfolio-scss/index-nav.scss";
-@import "./portfolio-scss/hamburger.scss";
-@import "./portfolio-scss/index.scss";
-@import "./portfolio-scss/pages.scss";
-@import "./portfolio-scss/footer.scss";
+/*global scss*/
 @import "./portfolio-scss/global.scss";
-@import "./portfolio-scss/work.scss";
-@import "./portfolio-scss/blog.scss";
-@import "./portfolio-scss/blog-post.scss";
+/*home page scss*/
+@import "./portfolio-scss/index-home.scss";
+@import "./portfolio-scss/index-home-nav.scss";
+/*all other pages default scss*/
+@import "./portfolio-scss/pages.scss";
+@import "./portfolio-scss/pages-header.scss";
+@import "./portfolio-scss/footer.scss";
+/*page specific scss*/
+@import "./portfolio-scss/work-page.scss";
+/*blog scss*/
+@import "./portfolio-scss/blog-page.scss";
+@import "./portfolio-scss/blog-post-page.scss";
 
 
 
