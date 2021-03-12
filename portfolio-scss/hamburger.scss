@@ -1,3 +1,11 @@
+/*header basics*/
+header{
+    background-color: $light-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
 
 /*hamburger code*/
 #menu-wrapper{

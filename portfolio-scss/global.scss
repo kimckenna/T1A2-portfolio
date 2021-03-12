@@ -37,7 +37,8 @@ main{
     justify-content: center;
     align-items: center;
 }
-.page-title{
+.page-title, 
+.blog-title{
     font-size: clamp(4.31rem, 2.078rem + 11.6vw, 15.47rem);
     letter-spacing: 0.02em; 
 }

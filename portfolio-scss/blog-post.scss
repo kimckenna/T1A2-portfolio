@@ -1,0 +1,66 @@
+/*blog post header changes*/
+.blog-header{
+    background-color: $primary-color-2;
+
+}
+/* need to change the color of the home logo - kim to white*/
+
+/* blog post article*/
+.blog-post{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    width: 90vw;
+    max-width: 1000px;
+    div{
+        max-width: 100vw;
+        max-height: 50vh;
+        margin: 3vh auto;
+        margin-bottom: 4vh;
+        display: flex;
+        max-width: 1000px;
+        overflow: hidden;
+        background-color: $light-color;
+        .blog-post-main-img{
+            max-width: 100%;
+            align-self: center;
+            opacity: 80%;
+        }
+    }
+}
+
+/*related posts links*/
+.related-blog-posts{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog-posts-links{
+    width: 90vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    .link-wrapper{
+        .post img{
+            width: 15vh;
+            max-width: 250px;
+            margin: 10px;
+            opacity: 30%;
+        }
+        a {
+            text-decoration: none;
+            h3 {
+                position: relative;
+                z-index: 999;
+                bottom: 75%;
+            }
+        }
+    }
+}
+

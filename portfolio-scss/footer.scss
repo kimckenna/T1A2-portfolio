@@ -33,3 +33,10 @@ footer{
     background-color: $light-color;
 
 }
+
+/*blog footer changes*/
+.blog-footer{
+    .social-icons img{
+        background-color: $primary-color-2;  
+    }
+}
