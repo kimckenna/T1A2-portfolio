@@ -5,18 +5,15 @@
 }
 /* need to change the color of the home logo - kim to white*/
 
-/* blog post article*/
-.blog-post{
+/* article
+- used for about me section as well*/
+
+.basic-article{
     margin: 0;
     justify-content: center;
     text-align: center;
     width: 90vw;
     max-width: 1000px;
-    .blog-writing{
-        margin: 0 auto;
-        width: 80vw;
-        max-width: 900px;
-    }
     div{
         max-width: 100vw;
         max-height: 50vh;
@@ -26,11 +23,16 @@
         max-width: 1000px;
         overflow: hidden;
         background-color: $light-color;
-        .blog-post-main-img{
+        .main-img{
             max-width: 100%;
             align-self: center;
             opacity: 92%;
         }
+    }
+    .writing{
+        margin: 0 auto;
+        width: 80vw;
+        max-width: 900px;
     }
 }
 
