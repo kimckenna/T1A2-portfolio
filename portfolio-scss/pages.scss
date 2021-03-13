@@ -49,17 +49,18 @@
 
 /*contact*/
 .contact-container{
+    margin: 0 auto;
     padding-top: 5vh;
     text-align: center;
     box-sizing: border-box;
     .contact-form{
-        margin: 0;
+        margin: 0 auto;
         padding-top: 1vh;
         display: flex;
         justify-content: center;
         align-items: center;
         .text-input{
-            margin: 2vw;
+            margin: 2vw auto;
             width: 50vw;
             min-height: 30px;
             max-width: 100%;
