@@ -1,0 +1,34 @@
+@import "./portfolio-scss/variable";
+@import "./portfolio-scss/fonts.scss";
+/*global scss*/
+@import "./portfolio-scss/global.scss";
+/*polaroid-nav*/
+@import "./portfolio-scss/polaroid-nav.scss";
+/*home page scss*/
+@import "./portfolio-scss/index-home.scss";
+/*all other pages default scss*/
+@import "./portfolio-scss/pages.scss";
+@import "./portfolio-scss/pages-header.scss";
+@import "./portfolio-scss/footer.scss";
+/*page specific scss*/
+@import "./portfolio-scss/work-page.scss";
+/*blog scss*/
+@import "./portfolio-scss/blog-post-page.scss";
+
+
+/*To be deleted:*/ 
+/*@import "./portfolio-scss/blog-page.scss";*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

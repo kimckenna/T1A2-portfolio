@@ -1,0 +1,59 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-color: #fff;
+    font-family: Lekton;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+h1{
+    margin: 0;
+    color: $h1-color;
+    font-family: 'Londrina Outline', sans-serif;
+    font-weight: 400;
+}
+h2{
+    margin:0;
+    color: $h2-color;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 300;
+    font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
+}
+ul{
+    list-style-type: none;
+}
+/*basic link formatting*/
+a{
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
+}
+a:hover{
+    color: $primary-color-2;
+}
+/*basic button*/
+button{
+    padding: 2% 4%;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
+    border: none;
+    background-color: #FFF;
+    color: $accent-color-dark;
+    border-radius: 10%;
+}
+button:hover{
+    color: $primary-color-2;
+}
+/*body font increase at 700px*/
+@media (min-width: 700px){
+    body,
+    input{
+        font-size: 18px;
+    }
+}

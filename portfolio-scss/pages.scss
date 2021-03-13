@@ -1,0 +1,82 @@
+/*pages content */
+.page-title{
+    text-align: center;
+}
+
+.page-content{  
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 15%;
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+}
+/*to push title below header*/
+.blog-content{
+    margin: 0 auto;
+    padding-top: 15%;
+}
+.page-title,
+.blog-title{
+    font-size: clamp(3rem, -0.272rem + 16.36vw, 12rem);
+    letter-spacing: 0.02em; 
+}
+
+/* about*/
+.info-me{
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*blog*/
+.blog-content{
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1200px;
+    z-index: 0;
+}
+
+/*contact*/
+.contact-container{
+    padding-top: 5vh;
+    text-align: center;
+    box-sizing: border-box;
+    .contact-form{
+        margin: 0;
+        padding-top: 1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text-input{
+            margin: 2vw;
+            width: 50vw;
+            min-height: 30px;
+            max-width: 100%;
+            padding: 1vw;
+            display: block;
+            border: none;
+            background-color: $light-color;
+            font-family: "Lekton", sans-serif;
+            font-size: 14px;
+            border-radius: 3%;
+        }
+    }
+}
+
+@media (min-width: 900px){
+   .page-content,
+   .blog-content{
+       padding-top: 13vh;
+   }
+}

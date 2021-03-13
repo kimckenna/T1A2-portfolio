@@ -1,0 +1,45 @@
+/*footter formating -fixing to the bottom of screen with no background color*/
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom:  0;
+    z-index: 999;
+
+    .social-icons{
+        position: relative;
+        max-height: 100px;
+        max-width: 1920px;       
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+
+        a{
+            width: 8%;
+            max-height: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 0 10px;
+        }
+        /*background color added to images*/
+        img{
+            max-width: 100%;
+            max-height: 90px;
+            background-color: $primary-color-1;
+            border-radius: 50%;
+        }
+    }
+}
+
+/*background color changes*/
+.blog-footer{
+    .social-icons img{
+        background-color: $primary-color-2;  
+    }
+}
+
+.index-footer{
+    .social-icons img{
+        background-color: $neutral-color;  
+    }
+}

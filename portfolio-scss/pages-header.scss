@@ -1,0 +1,135 @@
+/*header basics*/
+.page-header,
+.blog-header{
+    background-color: $light-color;
+    border-bottom: 1vh solid $primary-color-1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+/*blog post header change of bottom-border color*/
+.blog-header{
+    border-bottom: 1vh solid $primary-color-2;
+}
+
+/*hamburger menu code*/
+.menu-wrapper{
+    width: 10vw;
+    height: 10vh;
+    max-width: 100px;
+
+    position: absolute;
+    top: 1vh;
+    right: 4vw;
+    box-sizing: border-box;
+
+    /*checkbox for hamburger menu*/
+    .toggle{
+        width: 90%;
+        height: 100%;
+        max-width: 100px;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        z-index: 999;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .polaroid-wrapper{
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        z-index: 998;
+
+        .hamburger-polaroid{
+            transform: rotate(-15deg);
+            width: 100%;
+            top: 0;
+            transition: all 0.3s ease;
+        }
+    }
+    .menu {
+        width: 0;
+        height: 100%;
+        background-color: rgba(251, 245, 247, 0.95);
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        z-index: 1;
+
+        opacity: 0;
+        overflow: hidden;
+
+        transition: all 0.3s ease;
+
+        ul {
+            position: relative;
+            top: 30%;
+            li{
+                list-style-type: none;
+                text-align: center;
+                margin: 0;
+                padding: 20px;
+                cursor: pointer;
+                box-sizing: 100px;
+                border-bottom: 2px solid transparent;
+                a{
+                    position: relative;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: $primary-color-2;
+                }
+            }
+        }
+    }
+    /*to have menu appear*/
+    .toggle:checked + .polaroid-wrapper + .menu{
+        opacity: 1;
+        width: 100%;
+        
+    }
+    /*polaroid hover animation*/
+    .toggle:hover + .polaroid-wrapper{
+        transform: rotate(15deg);
+        transition: all 0.3s ease;
+        .hamburger-polaroid{
+            width: 120%;
+        }
+    }
+    /*polaroid selected animation*/
+    .toggle:checked + .polaroid-wrapper{
+        transform: rotate(30deg);
+    }
+}
+
+/*home icon code*/
+.home-icon{
+    max-width: 50%;
+    img{
+        width: 40%;
+        max-width: 200px;
+        position: relative;
+        left: 15%;
+        z-index: 999;
+    }
+}
+
+
+@media (max-width: 900px){
+    #menu-wrapper{
+        height: 10vh;
+        max-height: 100px;
+    }
+}
+
+
+

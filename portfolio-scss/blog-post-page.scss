@@ -1,0 +1,80 @@
+
+/* basic article format used for 'about' section as well*/
+
+.basic-article{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    width: 90vw;
+    max-width: 100%;
+    .posted-date{
+        text-align: left;
+        font-size: 12px;
+        position: relative;
+        display: inline;
+        right: 15vw;
+    }
+    div{
+        max-width: 100vw;
+        max-height: 50vh;
+        margin: 3vh auto;
+        margin-bottom: 4vh;
+        display: flex;
+        max-width: 1000px;
+        overflow: hidden;
+        background-color: $light-color;
+        .main-img{
+            max-width: 100%;
+            align-self: center;
+            opacity: 92%;
+        }
+    }
+    .writing{
+        margin: 0 auto;
+        padding: 2vh;
+        width: 80vw;
+        max-width: 900px;
+    }
+}
+
+/*related posts links/pictures formating*/
+
+.related-blog-posts{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    .related-title{
+        padding-bottom: 4vh;
+    }
+}
+
+.blog-posts-links{
+    margin: 0 auto;
+    padding-bottom: 6.5vh;
+    width: 90vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    .link-wrapper{
+        .post img{
+            width: 15vh;
+            max-width: 250px;
+            opacity: 70%;
+            margin: 0 10px;
+        }
+        .post img:hover{
+            opacity: 100%;
+        }
+        p{
+            margin: 0;
+            padding: 0 1vw;
+            margin-bottom: 12px;
+            font-size: clamp(1.125rem, 0.8364rem + 1.443vw, 2.568rem);
+        }
+    }
+}
