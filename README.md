@@ -12,7 +12,7 @@ https://www.kimckenna.com
 
 ## Sitemap
 
-![portfolio sitemap](https://github.com/kimckenna/T1A2-portfolio/blob/imac-main/readme-images/T1A2-sitemap.pdf)
+![portfolio sitemap](https://github.com/kimckenna/T1A2-portfolio/blob/imac-main/readme-images/sitemap.png)
 
 ## Page Features
 
