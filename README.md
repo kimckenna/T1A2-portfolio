@@ -110,7 +110,11 @@ Outside the accessibilty of my website a couple other issues stem from my images
 
 #### Index Page
 
-![portfolio index page desktop](./readme-images/index-desktop.png)![portfolio index page tablet](./readme-images/index-tablet.png)![portfolio index page mobile](./readme-images/index-mobile.png)
+<p float="left">
+  <img src="./readme-images/index-desktop.png" width="50" />
+  <img src="./readme-images/index-tablet.png" width="30" /> 
+  <img src="./readme-images/index-mobile.png" width="20" />
+</p>
 
 #### About Page
 
