@@ -111,9 +111,9 @@ Outside the accessibilty of my website a couple other issues stem from my images
 #### Index Page
 
 <p float="left">
-  <img src="./readme-images/index-desktop.png" height="280" />
-  <img src="./readme-images/index-tablet.png" height="250" /> 
-  <img src="./readme-images/index-mobile.png" height="220" />
+  <img src="./readme-images/index-desktop.png" height="310" />
+  <img src="./readme-images/index-tablet.png" height="270" /> 
+  <img src="./readme-images/index-mobile.png" height="230" />
 </p>
 
 #### About Page
