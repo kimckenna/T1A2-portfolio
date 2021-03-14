@@ -116,7 +116,7 @@ Outside the accessibilty of my website a couple other issues stem from my images
 
 #### About Page
 
-![portfolio about page desktop]()
+![portfolio about page desktop](./readme-images/about-desktop.png)
 ![portfolio about page tablet]()
 ![portfolio about page mobile]()
 
@@ -143,6 +143,12 @@ Outside the accessibilty of my website a couple other issues stem from my images
 ![portfolio blog post page desktop]()
 ![portfolio blog post page tablet]()
 ![portfolio blog post mobile]()
+
+#### Hamburger Navigation
+
+![portfolio hamburger navigation desktop]()
+![portfolio hamburger navigation tablet]()
+![portfolio hamburger navigation mobile]()
 
 ## TECH STACK
 
