@@ -151,9 +151,9 @@ Outside the accessibilty of my website a couple other issues stem from my images
 #### Blog Post Pages 
 
 <p float="left" align="center">
-  <img src="./readme-images/blog-post1-desktop.png" height="600" />
-  <img src="./readme-images/blog-post1-tablet.png" height="800" /> 
-  <img src="./readme-images/blog-post1-mobile.png" height="800" />
+  <img src="./readme-images/blog-post1-desktop.png" height="800" />
+  <img src="./readme-images/blog-post1-tablet.png" height="900" /> 
+  <img src="./readme-images/blog-post1-mobile.png" height="900" />
 </p>
 
 #### Hamburger Navigation
