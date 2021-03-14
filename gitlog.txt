@@ -1,0 +1,498 @@
+commit 5574e7dd133da4f7f325ee838a02acdb4fd460f3
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 20:06:24 2021 +1100
+
+    added SRI to all html for output.css
+
+commit e5a8a6715a8eeba79a18759de639be9aa4953fe9
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 19:41:07 2021 +1100
+
+    fixed about bottom padding and changed article dates
+
+commit 4107203e734843909760689cf1c0f22e21e2dbc3
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 19:22:46 2021 +1100
+
+    readme
+
+commit 4638718ca0cbc7a7d1f868608be53ec4a9e1a269
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 19:20:55 2021 +1100
+
+    trying to fix sitemap image
+
+commit 0b47e136f06496c8744aca72f5db1f2e4e1bbd44
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 19:15:36 2021 +1100
+
+    added alt tags to images in readme and added github link
+
+commit bbbb40097690c667453f4f892c2939e9cea652b1
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 19:08:28 2021 +1100
+
+    added some comments and removed work page - added contents to pages-main
+
+commit 120c77417547a1df347c5555cfd98c1ad8450e8f
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 18:14:58 2021 +1100
+
+    complete readme
+
+commit 05a17d908d4b7e083541299978607485a3683234
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 18:01:36 2021 +1100
+
+    read me
+
+commit a224f551cf3c7a8e76628a6730ec97587d50fcce
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 18:00:25 2021 +1100
+
+    change blog posts images
+
+commit 40a540022bd4ccf0105618af74023b31cc5c4ea2
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:57:44 2021 +1100
+
+    added dtes to blog page and updated screenshots for readme
+
+commit f7510966b6acb083c1a89195d4e71a697cde9dd0
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:16:57 2021 +1100
+
+    fixed image error
+
+commit 7880799031bba5c91856096d9bb3e9a2efc9ef96
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:14:04 2021 +1100
+
+    changed formatting of all website screenshots
+
+commit 09786510789972c92b21b874d786857dd5c19289
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:08:36 2021 +1100
+
+    read me
+
+commit cf7729d7d42af24a1c88f7c4afa44da5b2dc1d88
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:06:50 2021 +1100
+
+    readme
+
+commit 71c05d7486f2917490d879be29e276a2493937a9
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:05:13 2021 +1100
+
+    read me images
+
+commit 83165553df1e1763ec9e0d4571c5000a998a81ee
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 17:02:24 2021 +1100
+
+    read me images
+
+commit db6c443a70b775be36be17d58e2516791d5c354a
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:59:47 2021 +1100
+
+    readme images
+
+commit 2f87a023a5877a680f7e6cfeee400796295b3374
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:56:34 2021 +1100
+
+    readme images
+
+commit 291ecc7bd8e238b543a7d3d50ed15c06cef3ce2c
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:54:30 2021 +1100
+
+    read me images
+
+commit 84c5aa8be8dbc04d541257b5d8f9c89a8731de56
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:53:03 2021 +1100
+
+    readme images
+
+commit 998ef641a6bd608425cd552c63288e2fd75c952c
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:51:16 2021 +1100
+
+    trial image layout for readme
+
+commit b8d563126d020074c5c28daad1597577ca9d2726
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:40:56 2021 +1100
+
+    attempt at changing image position
+
+commit b0672762ebc2d719dc73c98a99566dc323bd6bdb
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:38:35 2021 +1100
+
+    added remainder images for final website screenshots
+
+commit dd690a60b304ca74bf065303d5e94a5da0d8df80
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:29:44 2021 +1100
+
+    added images for screenshots of website - trialing first link for about desktop
+
+commit a9592a08893b8a7d742b26b1c3ae69d98b2c337e
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:09:20 2021 +1100
+
+    removed canonical link
+
+commit 39dc14451df610969498278375438b1472261770
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:07:45 2021 +1100
+
+    trial of canonical link
+
+commit 879db3f0b5b2d800d8ed747d90146093ade46e96
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 16:02:27 2021 +1100
+
+    added metadata description to blog pages
+
+commit 769743e340fa3a93c4f8bdacffc3e7300cc133ea
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 15:12:36 2021 +1100
+
+    fixed contact form send button positioning after 900px
+
+commit d21829b605debfa233dc42483b031daa283761b6
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 12:48:31 2021 +1100
+
+    altered font-size of links
+
+commit ffdceed43d5d0ccf831b951224b2e4a16e66963a
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 12:39:39 2021 +1100
+
+    trying to fix hover on polaroids
+
+commit ab64421b4a55c22ff9c15592ba1ce0666572afb2
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 12:21:47 2021 +1100
+
+    fixed padding to bottom of contact form at 900px to prevent footer covering send button
+
+commit f1c8a2aa0e75e007b5576fcb61d910c38275c6b8
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 12:16:27 2021 +1100
+
+    compressed image file sizes and created smaller images for blog post related and blog page polaroids.
+
+commit ce6210c4771360049a4cbda621c1a545cc905695
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 11:56:18 2021 +1100
+
+    fixed positioning of blog page on 1200px+ and removed padding to page-content as not needed & throwing off positioning at 320px
+
+commit c959196a14ecfe5119c9dbdb1ebfb96201c7f1bd
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 11:33:47 2021 +1100
+
+    added changes for mobile usability - fixed work images sizing issue & font sizing for certain links
+
+commit 6413d5dc9d37e24e7003075d28875cbe22c2bd59
+Merge: 8660f98 f6c8370
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 11:09:16 2021 +1100
+
+    merging branches
+
+commit 8660f98e00687529feeb89dd0949b1b2f01811ae
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 10:56:23 2021 +1100
+
+    removed code squishing footer & updated accent color dark as too light
+
+commit f6c8370ad7595a268209938bec5951a20fcddc38
+Merge: a8d2e27 5ccca1b
+Author: kimckenna <77761640+kimckenna@users.noreply.github.com>
+Date:   Sun Mar 14 03:20:18 2021 +1100
+
+    Merge pull request #1 from kimckenna/imac-main
+    
+    Imac main
+
+commit 5ccca1b8f387d27c3da84fa80e4ac539f75d86e9
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 03:08:10 2021 +1100
+
+    trying to resize items to fix for different resolutions. Chaged heading bar to border-bottom for color change
+
+commit 09b5914a2ead2ccd22c194cc00575603f5fa4550
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 00:09:10 2021 +1100
+
+    completed more of readme doc - fixed sitemap
+
+commit 79d1af215c3d51562a11ffe63ca17ed83cb408ef
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 22:43:44 2021 +1100
+
+    sitemap link trial
+
+commit e085bf3e0054f67eaa9a563d22cccc47aa191b67
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 22:27:24 2021 +1100
+
+    changed image link for site-map
+
+commit d0b06099092d22b70dd13e2b2212799affaf6870
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 22:23:46 2021 +1100
+
+     Changed some styling and organisation of readme, trying to see if image selection has worked
+
+commit 115142771e0e68e2954babff5092f54a5f28043f
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 22:12:57 2021 +1100
+
+    added part of read Me doc with content regarding pages, components, tech stack and reasources at present
+
+commit a6bd66826c9fcdf50fd3aab49ef62d0fd2e5d7fa
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 19:27:12 2021 +1100
+
+    cleaned up fonts, title and spacing on blog post pages
+
+commit 850c93ebca4fc7f304e0427f0e3001992e67fbb2
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 17:42:34 2021 +1100
+
+    added contact form and formatting for button. Removed extra secondary headings from .work & .connect
+
+commit 0c5d79fb72e6251777dcf98252c9a7ef4e4f1c08
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 15:06:47 2021 +1100
+
+    fixed issues with h1 sitting under the header. Cleaned up some of the code and removed obvious extras, added comments to stylesheets
+
+commit c80bd1e189ff2c2194318eca5570e0656474381e
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 10:43:45 2021 +1100
+
+    fix link font & sizing - need to play around with it on blog-post page. re-fixed header - need to fix on blog post section. Moved general link formatting to global
+
+commit 050c372604ac154a66b53566f7209239b0c1b93c
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 02:53:04 2021 +1100
+
+    added image for about page and added resume for download.
+
+commit b752bc8930832be30920eeae904602a984bc5778
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 01:55:36 2021 +1100
+
+     added text for about page
+
+commit c1b136f3c7f968c0edf4e3233b10a6e575dcc1c5
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 13 00:03:56 2021 +1100
+
+    fixed blog pge polaroids using code of index polaroids. Have seperated ul into 2 for purpose of stacking polaroids after 700px
+
+commit 4eccc999f9cb8c6cffa499afb47cce864a70a5ee
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 17:28:36 2021 +1100
+
+    fixed home page ratio with max-width on .home-nav in media query. blog page currently broken.
+
+commit 30793ff28167a08d96c8e184c64373389af7e23a
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 16:22:34 2021 +1100
+
+    removed top margin on page content
+
+commit bb8ae179e48229a842f0d30c8a0e12b7732d4eb4
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 14:14:13 2021 +1100
+
+    moved some code to correct pages - sepcifically between pages & global. Renamed some of the scss files to better represent content and added notes to some of the files for seperation of sections within each page
+
+commit 836d6121ef255a748a496ba4ef9b05320549e92c
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 13:55:26 2021 +1100
+
+    fixed issed with index- nav polaroid stack not refkecting correctly. Renamed pages-content to pages.scss and Moved header background color for pages to pages.scss
+
+commit 3845867cf0c4f466e1890b62628d2c423a98ec26
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 12:55:47 2021 +1100
+
+    changed hamburger nav id to class across all pages and blog posts so background color can been chnaged on different pages
+
+commit 203c9f54881412f23f6addf06ac09147b2736981
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 12:41:11 2021 +1100
+
+    fixed footer color on main pages & fixed footer z-index on blog posts page
+
+commit 2b552ecb468ccc1b304e88f29c6fade37290aea3
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 12:30:24 2021 +1100
+
+    added content to other blog posts. Need to fix where page contents starts - is being partially covered when website is responsive
+
+commit 4de336667cb3e72ebef2643f168bdc1232f9f9e0
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 12 12:13:22 2021 +1100
+
+    added blog pages html - started with blog post 1 css which is now working so will copy over to other blog posts next.
+
+commit 975314f8d030c033be4bf8093097272ee5d39014
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 23:47:56 2021 +1100
+
+    blog images added - no formatting done yet.
+
+commit b5acef47947200a32aeace70633718f36a929f60
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 21:55:49 2021 +1100
+
+    fixed hamburger menu & kim logo. Removed extra nav.scss sheet from old hamburger menu
+
+commit 4be1551bb8920bf9886bf1405805360830fdc3cf
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 17:59:49 2021 +1100
+
+    added content to .work page - need to fix height of page.
+
+commit 8eb611c8da63ce11e5a79041d985f23e533b1658
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 14:59:35 2021 +1100
+
+    changed color of hanburger menu and footer - still having issues with polaroid icon size.
+
+commit 1cf7916cf6b661300bf0592e92220f26e0bd8d87
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 11:12:59 2021 +1100
+
+    fixed footer
+    height suitable and now fixed to bottom of screen.
+    changed colors into variables and added global.scss & _variable.scss stylesheets.
+    still fixing content height and header
+
+commit ab0eb20f1bd708c888a73753517bbcce1d847544
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 11 00:13:22 2021 +1100
+
+    moved position of hamburger menu, reduced home icon size. Centered about-content on page.
+    NEED TO FIX: positioning of home icon slightly & about-content has priority over hamburger icon.
+
+commit 5935c6e553ccd0de6f136197e24a40f8b2361015
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Wed Mar 10 23:10:20 2021 +1100
+
+    made changes to hamburger menu and created file for scss sheets. Sperated out footer.scss & about.scss. old hamburger -nav.scss was creating issues and used code not suitable
+    created new hamburger menu - hamburger.scss which works correctly.
+    Need to fix header.
+
+commit be13029bb44913a7973e61ab8ce898f75f15c1db
+Author: Kimberly McKenna <kimberlymckenna@kimberlys-imac.lan>
+Date:   Wed Mar 10 07:58:51 2021 +1100
+
+    Played more with hamburger navigation - is currently extending off screen at certain width and coming on screen when small. Otherwise have made nav bar flex with home button correctly sized and positioned
+
+commit b827d0a6c90fad3a14682430ff97d3a515f05e51
+Author: Kimberly McKenna <kimberlymckenna@kimberlys-imac.lan>
+Date:   Wed Mar 10 01:08:44 2021 +1100
+
+    created new stylessheets. Started working on hamburger navigation. Not currently working as intended - still in process of customising. Added basic content to all html sheets.
+
+commit b61fdf9a3cd076098ffa17b4222725d5d30d468b
+Author: Kimberly McKenna <kimberlymckenna@Kimberlys-iMac.hub>
+Date:   Tue Mar 9 09:50:33 2021 +1100
+
+    adjusted margin of main-title
+
+commit 2c68578519139a82f06ec2f8beafea521ab10623
+Author: Kimberly McKenna <kimberlymckenna@kimberlys-imac.lan>
+Date:   Tue Mar 9 02:26:32 2021 +1100
+
+    seperated input.scss style sheet into nav, font, maib sheet. Started basic html for other pages.
+
+commit 4a013526fc53f20e65b609f87cff5de2a12cd9bf
+Author: Kimberly McKenna <kimberlymckenna@Kimberlys-iMac.hub>
+Date:   Mon Mar 8 20:31:18 2021 +1100
+
+    added social icons to home page
+
+commit 2ccfa4add7dd1bb6da4d44a2859116177adf0d8c
+Author: Kimberly McKenna <kimberlymckenna@Kimberlys-iMac.hub>
+Date:   Mon Mar 8 12:27:10 2021 +1100
+
+    added shadowing to dev-student text.
+
+commit 39887f8c548a7d662e201c1730e2205a814014a3
+Author: Kimberly McKenna <kimberlymckenna@Kimberlys-iMac.hub>
+Date:   Mon Mar 8 02:13:53 2021 +1100
+
+    polaroid shadows added
+
+commit 5c26659b97ace733543f03bef58d16d13019a57e
+Author: Kimberly McKenna <kimberlymckenna@kimberlys-imac.lan>
+Date:   Mon Mar 8 00:41:35 2021 +1100
+
+    positioned 320-700px nav vertical & 700+ horizontal. Added transform to polaroid angles. Added links to html pages
+
+commit 299577c2cd8febb56b9b9bfc70885b05e61a179c
+Author: Kimberly McKenna <kimberlymckenna@kimberlys-imac.lan>
+Date:   Sun Mar 7 17:39:20 2021 +1100
+
+    fixed title text alignment, issue with alignment still between w1858-1920 to fix later. text alignment on polaroids fixed
+
+commit a8d2e27c671767c3b98c62efc7623acbff22c2b8
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sat Mar 6 01:07:44 2021 +1100
+
+    made remainder polaroids for nav - moved font into outer polaroid div.
+
+commit 12b4674eaad4ac046e4946b83ceb4ede6ae4b63e
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 5 23:31:07 2021 +1100
+
+    changed text to clamp - slight issue with height alignment. Have left for moment.
+
+commit 9a2a20c835071d641495ee8f50b85a90c00c926f
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 5 19:45:00 2021 +1100
+
+    started changes to navbar - made polaroid for about me - have not started transform or positioning
+
+commit d9fd433d6432c8c7b43ba92c721393af6d05fca4
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 5 13:46:05 2021 +1100
+
+    completed styling for kim-title upto 1920px with @media. Will need tochange once nav bar complete for appropriate max width.
+
+commit 7025ffb581df6b93ff51fe0088e3c71fbf6e9b78
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Fri Mar 5 10:50:14 2021 +1100
+
+    made index page title and added background color and global font.
+
+commit f97b3fe36cf5d21eb09203e0fbdf4efd7840d710
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 4 19:38:45 2021 +1100
+
+    set up scss file and portfolio html
+    set up basic html for index.html with nav bar text and name & occupation.
+    started scss file for fonts & added background.
+
+commit e28745cdc1ba4ad094d3f79befb62b92a7ec3050
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Thu Mar 4 17:53:33 2021 +1100
+
+    initial commit:
+    html: index, about-me, professional-links, blog, contact. style.css & style.scss
