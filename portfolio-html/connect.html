@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Portfolio site of Kim McKenna. Full Stack Developer Student 2021">
     <title>kimckenna</title>
-    <link rel="stylesheet" href="../output.css" integrity="sha512-mEgJMdT/OYvj4ljGkeQODGGcIS6UeWb31A8BiZRkxlCY78B4QHEFZgMEZXuJulDnVRn2SFgQ2KSpg7pxS5khGA">
+    <link rel="stylesheet" href="../output.css" integrity="sha512-lgynZpRZ+k4vY31DLBAAmkuNs4XSOa6pFdv683JMWU7239LAzV/ofQsp4JShYqaDf785h5SnBfMx/KV3Jf8zRw">
 </head>
 <body>
     <div class="body-container">
         <header class="page-header">
             <nav role="navigation" class="page-nav">
-
                 <div class="home-icon">
                     <a href="../index.html"><img src="../images/kim-logo.svg" alt="kim-logo"></a>
                 </div>
@@ -42,20 +41,18 @@
             </nav>
         </header>
         <main class="page-content">
-            <article class="basic-article article-bottom-padding">
-                <h1 class="page-title">.about</h1>
-                <div>
-                    <img class="main-img" src="../images/Kim.png" alt="Image of Kim">
+            <h1 class="page-title">.connect</h1>
+            <div class="contact-container">
+                <p>Want to know more? <br>Need a hand? <br>I'd love to hear from you!</p>
+                <div class="contact-form">
+                    <form name="contact" data-netlify="true">
+                    <label><input class="text-input" type="text" id="name" name="name" placeholder="Name"></label>
+                    <label><input class="text-input" type="text" id="email" name="email" placeholder="Email"></label>
+                    <label><textarea id="subject" class="text-input" name="subject" placeholder="Message" style="height:170px"></textarea></label>
+                    <button type="submit">send</button>
+                    </form>
                 </div>
-                <section class="writing">
-                    <p>Driven by aesthetic and function; I believe there’s a place for both, and trying to find the right balance is key. Within any form of web design, usability is paramount and can make or break the successfulness of a site. I hope to code beautiful but functional websites that can follow best practice whilst remaining unique and relevant.</p>
-
-                    <p>Currently completing a Diploma of I.T., I hope to add the relevant skills to my wheelhouse and forge a career within development that will undoubtedly have me always feeling a little lost, striving to learn more but eventually knowing the right thing to google.</p>
-                        
-                    <p>I’m a cat lover, plant mother, whiskey sour ‘connoisseur’, art possessor and potential polaroid fanatic.
-                    I’ve taken many redirections on my way here but ultimately I’ve been looking for something that can fulfil all facets of my personality and provide me with both a creative and analytical outlet.</p><br>
-                    </section>
-            </article>
+            </div>
         </main>
         <footer>
             <div class="social-icons">
