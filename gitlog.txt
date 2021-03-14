@@ -1,3 +1,21 @@
+commit a4333957740eeaf91c9092de37bd7a63c0a2d591
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 21:30:23 2021 +1100
+
+    fixed sri & structure of files as unable to deploy
+
+commit 7143a978a1b087b47408c1394c36d7e8b0c4319f
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 21:09:45 2021 +1100
+
+    SRI added to index
+
+commit 18863cff8556b6cc614ba15988c9f492ce1243c4
+Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
+Date:   Sun Mar 14 21:04:15 2021 +1100
+
+     updated gitlog
+
 commit ddd2b0c15e8cee1805a348ef25905090430f4c56
 Author: Kim McKenna <kimberlymckenna@hotmail.co.uk>
 Date:   Sun Mar 14 21:00:25 2021 +1100
