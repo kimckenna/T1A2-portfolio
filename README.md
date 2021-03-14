@@ -5,7 +5,7 @@
 https://www.kimckenna.com
 
 ### Github Repository:
-https://github.com/kimckenna/T1A2-portfolio
+https://github.com/kimckenna/KimberlyMcKenna_T1A2
 
 ## PURPOSE
 
