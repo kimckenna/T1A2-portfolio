@@ -52,9 +52,7 @@ ul.home-nav-list{
     margin: 22% 0% 0% 10%;
     font-size: clamp(1.125rem, 0.8364rem + 1.443vw, 2.568rem);
 }
-a, a:visited, a:active{
-    color: $accent-color-dark;
-}
+
 
 /*home-index polaroid formatting under 700px*/
 .home-about-polaroid{

@@ -26,13 +26,14 @@ ul{
     list-style-type: none;
 }
 /*basic link formatting*/
-a{
+a, a:visited, a:active{
     font-family: "Londrina Shadow", sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);
+    color: $accent-color-dark;
 }
-a:hover{
+a:hover, a + .home-nav-name:hover{
     color: $primary-color-2;
 }
 /*basic button*/
