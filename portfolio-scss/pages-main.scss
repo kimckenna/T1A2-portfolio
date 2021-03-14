@@ -28,7 +28,7 @@
     letter-spacing: 0.02em; 
 }
 
-/* about*/
+/* ABOUT PAGE*/
 .info-me{
     max-width: 75%;
     display: flex;
@@ -38,7 +38,40 @@
     text-align: center;
 }
 
-/*blog*/
+/* WORK PAGE */
+/* resume excerpt with skills and languages*/
+.work-section{
+    margin: 1vh auto;
+    text-align: center;
+    width: 80vw;
+    max-width: 1000px;
+}
+
+/*portfolio article*/
+.portfolio{
+    margin-top: 2vh;
+    text-align: center;
+    .portfolio-images{
+        width: 90vw;
+        max-width: 1200px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: 15vh;
+            max-width: 250px;
+            border: black 1px solid;
+            margin: 10px;
+        }
+    }
+}
+
+/* larger link font-size*/
+.link-larger-heading{
+    font-size: 3em;
+}
+
+/*BLOG PAGE*/
 .blog-content{
     margin: 0 auto;
     width: 100vw;
@@ -46,7 +79,7 @@
     z-index: 0;
 }
 
-/*connect*/
+/*CONNECT PAGE*/
 .contact-container{
     margin: 0 auto;
     padding-top: 5vh;
@@ -79,6 +112,7 @@
    .blog-content{
        padding-top: 12vh;
    }
+   /*change of spacing for connect page - contact form*/
    .contact-container{
         padding-top: 0;
         .contact-form{

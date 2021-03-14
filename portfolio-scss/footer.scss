@@ -17,11 +17,9 @@ footer{
         a{
             width: 8%;
             max-height: 100%;
-            /*display: flex;
-            justify-content: center;*/
             margin: 0 10px;
         }
-        /*background color added to images*/
+        /*background color added to images instead of entire footer*/
         img{
             max-width: 100%;
             max-height: 90px;
@@ -31,7 +29,7 @@ footer{
     }
 }
 
-/*background color changes*/
+/*background of icons color changes*/
 .blog-footer{
     .social-icons img{
         background-color: $primary-color-2;  

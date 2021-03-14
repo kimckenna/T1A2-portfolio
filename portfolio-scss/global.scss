@@ -25,17 +25,18 @@ h2{
 ul{
     list-style-type: none;
 }
+
 /*basic link formatting*/
 a, a:visited, a:active{
     font-family: "Londrina Shadow", sans-serif;
     font-weight: 400;
     text-decoration: none;
-    /*font-size: clamp(1.25rem,0.7rem + 2.75vw, 4rem);*/
     color: $accent-color-dark;
 }
 a:hover{
     color: $primary-color-2;
 }
+
 /*basic button*/
 button{
     padding: 2% 4%;
@@ -51,6 +52,7 @@ button{
 button:hover{
     color: $primary-color-2;
 }
+
 /*body font increase at 700px*/
 @media (min-width: 700px){
     body,

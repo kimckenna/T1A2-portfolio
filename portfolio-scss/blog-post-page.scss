@@ -1,5 +1,8 @@
 
 /* basic article format used for 'about' section as well*/
+/* Includes section with H1, image and date posted & another section with writing*/
+
+/* Note: about does not use posted-date*/
 
 .basic-article{
     margin: 0;
@@ -37,7 +40,7 @@
     }
 }
 
-/*related posts links/pictures formating*/
+/*related post's links/pictures contained in article*/
 
 .related-blog-posts{
     position: relative;
@@ -48,33 +51,33 @@
     .related-title{
         padding-bottom: 4vh;
     }
-}
-
-.blog-posts-links{
-    margin: 0 auto;
-    padding-bottom: 6.5vh;
-    width: 90vw;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: space-around;
-    justify-content: center;
-    .link-wrapper{
-        .post img{
-            width: 15vh;
-            max-width: 250px;
-            opacity: 85%;
-            margin: 0 10px;
-        }
-        .post img:hover{
-            opacity: 100%;
-        }
-        p{
-            margin: 0;
-            padding: 0 1vw;
-            margin-bottom: 12px;
-            font-size: clamp(1.125rem, 0.8364rem + 1.443vw, 2.568rem);
+    .blog-posts-links{
+        margin: 0 auto;
+        padding-bottom: 6.5vh;
+        width: 90vw;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: space-around;
+        justify-content: center;
+        /*link-wrapper includes images and links*/
+        .link-wrapper{
+            .post img{
+                width: 15vh;
+                max-width: 250px;
+                opacity: 85%;
+                margin: 0 10px;
+            }
+            .post img:hover{
+                opacity: 100%;
+            }
+            p{
+                margin: 0;
+                padding: 0 1vw;
+                margin-bottom: 12px;
+                font-size: clamp(1.125rem, 0.8364rem + 1.443vw, 2.568rem);
+            }
         }
     }
 }

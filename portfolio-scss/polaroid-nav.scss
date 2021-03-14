@@ -146,6 +146,7 @@ ul.home-nav-list{
     main.kim-title{
         margin: 0 auto;
     }
+
     /*blog post specific*/
     /* individual blog specific media queries - reduces top position movement & adds rotation to blog 1, 2, 3*/
     .blog-1-polaroid{
@@ -165,7 +166,8 @@ ul.home-nav-list{
         top: 45%;
         transform: rotate(10deg);
     }
-    /* also aligns polaroid 4 & 5 to center*/
+
+    /* aligns polaroid 4 & 5 to center*/
     .blog-4-polaroid{
         z-index: 2;
         top: 90%;

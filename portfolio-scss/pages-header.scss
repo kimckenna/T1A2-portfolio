@@ -8,7 +8,7 @@
     width: 100%;
     z-index: 999;
 }
-/*blog post header change of bottom-border color*/
+/*blog post header bottom-border color change*/
 .blog-header{
     border-bottom: 1vh solid $primary-color-2;
 }
@@ -79,7 +79,6 @@
                 margin: 0;
                 padding: 20px;
                 cursor: pointer;
-                /*box-sizing: 100px;*/
                 border-bottom: 2px solid transparent;
                 a{
                     position: relative;

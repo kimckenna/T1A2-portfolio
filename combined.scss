@@ -7,17 +7,12 @@
 /*home page scss*/
 @import "./portfolio-scss/index-home.scss";
 /*all other pages default scss*/
-@import "./portfolio-scss/pages.scss";
 @import "./portfolio-scss/pages-header.scss";
+@import "./portfolio-scss/pages-main.scss";
 @import "./portfolio-scss/footer.scss";
-/*page specific scss*/
-@import "./portfolio-scss/work-page.scss";
 /*blog scss*/
 @import "./portfolio-scss/blog-post-page.scss";
 
-
-/*To be deleted:*/ 
-/*@import "./portfolio-scss/blog-page.scss";*/
 
 
 
